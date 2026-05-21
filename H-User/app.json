@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "H",
+    "slug": "H",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./medias/logo.png",
+    "scheme": "h",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./medias/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./medias/logo.png",
+      "bundler": "metro",
+      "description": "Système de surveillance de santé et de traçage de contacts",
+      "splash": {
+        "image": "./medias/logo.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#FFFFFF"
+      },
+      "config": {
+        "pwa": {
+          "manifest": {
+            "short_name": "H",
+            "name": "H - Health Monitor",
+            "description": "Application de surveillance santé et traçage",
+            "start_url": "/",
+            "display": "standalone",
+            "background_color": "#FFFFFF",
+            "theme_color": "#000000"
+          }
+        }
+      }
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
